@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="d893835f-f6aa-368c-ad3a-0fc42eac9bef")}catch(e){}}();
+define(["exports"],(function(e){"use strict";class t{constructor(e=(()=>{})){this._mapper=e}static getInstance(){return t._instance||(t._instance=new t),t._instance}static reset(){t._instance=new t}setMapper(e){this._mapper=e}resolve(){let e="";try{e=this._mapper(window.location)}catch(e){}return e||""}}t._instance=null;const n=t.getInstance();e.GetGrowthRoutes=function(e){return e.ns("growth")},e.PAP_Select_CreateFolderAction=function(e){return{class:"navigation",action:"select",object:"create_folder_action",properties:e}},e.PAP_View_CreateFolderModal=function(e){return{class:"folder_modal",action:"view",object:"create_folder_modal",properties:e}},e.resolveRouteName=()=>n.resolve(),e.setRouteNameMapper=e=>{n.setMapper(e)}}));
+//# sourceMappingURL=c_pap-events_navigation_select_create_folder_action.js-vflLSg68H.map
+
+//# debugId=d893835f-f6aa-368c-ad3a-0fc42eac9bef

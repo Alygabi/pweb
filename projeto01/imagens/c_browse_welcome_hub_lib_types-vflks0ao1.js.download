@@ -1,0 +1,5 @@
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="83a561a7-b0c0-30ff-a429-f123a7790dd8")}catch(e){}}();
+define(["exports"],(function(e){"use strict";var t;!function(e){e.INSTALL_DESKTOP="install_desktop_module",e.INSTALL_MOBILE="install_mobile_module",e.UPLOAD_FILES="upload_content_module",e.SHARE_FILES="share_content_module"}(t||(t={})),e.ActivationTileMilestoneId=void 0,(e.ActivationTileMilestoneId||(e.ActivationTileMilestoneId={})).SHARE_CONTENT="share_content_milestone"}));
+//# sourceMappingURL=c_browse_welcome_hub_lib_types.js-vflYeTUpQ.map
+
+//# debugId=83a561a7-b0c0-30ff-a429-f123a7790dd8
