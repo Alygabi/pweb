@@ -1,5 +1,0 @@
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="377a5237-f0b9-37f0-999f-cabe361808af")}catch(e){}}();
-define(["exports","./e_file_viewer_static_scl_page_file","react","./c_memoize-one","./e_core_exception","./c_src_sink_index","./c_browser_browser_detection","./c_lodash-es_lodash","./e_edison","./c_api_v2_routes_password_confirmation_provider","./c_init_data_edison","./c_init_data_debug_panel","./c_pap-events_navigation_select_create_folder_action","./e_data_modules_stormcrow","./c_react-use_misc_util","./c_api_v2_client_base","./c_watermarking_utils_getImageDefaultSizes","./c_core_i18n","metaserver/static/js/langpack","./c_core_notify","react-dom","./c_security_csrf_hmac"],(function(e,_,t,a,c,i,o,r,s,n,d,l,f,m,p,u,g,v,w,h,b,k){"use strict";e.getDataForContentInfo=_.getDataForContentInfo,e.share=_.share}));
-//# sourceMappingURL=c_file_viewer_common_share_helpers.after-display.js-vfl93CjDW.map
-
-//# debugId=377a5237-f0b9-37f0-999f-cabe361808af

@@ -1,5 +1,0 @@
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="2a86f8ef-5560-3873-a634-f235f7c01f6f")}catch(e){}}();
-define(["exports","react","./e_file_viewer_static_scl_page_file"],(function(e,t,f){"use strict";function i(e){return e&&e.__esModule?e:{default:e}}var o=i(t);e.useThemedStyle=function(e){let{over:t}=e;const{theme:i,mode:n}=f.useTheme();return o.default.useMemo((()=>({"--dig-color__fileicon__container":"subtle"===t&&"vis2020"===i&&"dark"===n?"#ffffff":void 0})),[i,n,t])}}));
-//# sourceMappingURL=c_dig-content-icons_hooks_useThemedStyle.js-vflbQxd1u.map
-
-//# debugId=2a86f8ef-5560-3873-a634-f235f7c01f6f
