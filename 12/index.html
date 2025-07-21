@@ -3,7 +3,20 @@
 <head>
     <meta charset='utf-8'>
     <title>Atividade 11</title>
-    <style></style>
+    <style>
+        .pessoa{
+            color: red;
+        }
+        .pessoa[data-idade='30']{
+            color: blue;
+        }
+        .pessoa::before{
+            content: 'antes';
+        }
+        .pessoa::after{
+            content: 'depois';
+        }
+    </style>
 
 </head>
 <body>
@@ -17,8 +30,8 @@
    <script type="text/javascript">
 
 
-	function mostravalor(componente){
-		var valor = componente.getAttribute('data-idade');
+	function mostravalor(this){
+		var valor = this.getAttribute('data-idade');
 		alert(valor);
 	}
     </script>
